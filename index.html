@@ -12,6 +12,7 @@
      <div class="dashboard">
         <!-- side-bar -->
          <aside>
+
             <div class="logo">
                 <h3>Volix Bank</h3>
             </div>
@@ -26,7 +27,7 @@
                     <span class="material-symbols-outlined">
                         analytics
                         </span>
-                        <h3>Analytics</h3>
+                        <h3>An alytics</h3>
                 </div>
                 <div class="nav-links">
                     <span class="material-symbols-outlined">
@@ -71,6 +72,87 @@
          </aside>
          <!-- main dashboard -->
           <main>
+             <!-- search notification bar -->
+                 <div class="main-header">
+                    <input type="text" placeholder="search">
+                    <div class="notify-icon">
+                        <img src="/active.png" alt="">
+                    </div>
+                 </div>
+                 <!-- main-content -->
+                  <div class="main-content">
+                    <!-- main-content-top -->
+                  <div class="main-content-top">
+                    <div class="main-content-left">
+                        <div class="main-content-left-header">
+                            <h2>Hello, Andril</h2>
+                            <span>Good morning, let's manage your finances</span>
+                        </div>
+                        <div class="main-content-left-card">
+                            <div class="main-content-left-card-top">
+                                <div class="main-content-left-card-top-img">
+                                    <img src="/money-bag.png" alt="">
+                                </div>
+                                <div class="main-content-left-card-top-text">
+                                    <h3>$27,202,245</h3>
+                                    <span>Total Balance</span>
+                                </div>
+                            </div>
+                            <div class="main-content-left-card-below">
+                                <h4>View details</h4>
+                                <img src="/right-chevron.png" alt="">
+                            </div>
+                        </div>
+                        <div class="main-content-left-card">
+                            <div class="main-content-left-card-top">
+                                <div class="main-content-left-card-top-img">
+                                    <img src="/money-bag.png" alt="">
+                                </div>
+                                <div class="main-content-left-card-top-text">
+                                    <h3>$5,224,645</h3>
+                                    <span>Total Income</span>
+                                </div>
+                            </div>
+                            <div class="main-content-left-card-below">
+                                <h4>View details</h4>
+                                <img src="/right-chevron.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" main-content-right">
+                        <div class="main-content-right-top">
+                            <canvas id="myChart"></canvas>  
+                        </div>
+                        <div class="main-content-right-below">
+                            <div class="main-content-right-below">
+                            <div class="main-content-right-below-card">
+                                <div class="main-content-right-below-card-one">
+                                    <img src="/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                                </div>
+                                <div class="main-content-right-below-card-two">
+                                    <h2>$6,456,675</h2>
+                                    <span>Total Expenses</span>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="main-content-right-below">
+                            <div class="main-content-right-below-card">
+                                <div class="main-content-right-below-card-one">
+                                    <img src="/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                                </div>
+                                <div class="main-content-right-below-card-two">
+                                    <h2>$6,456,675</h2>
+                                    <span>Total Expenses</span>
+                                </div>    
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- main-content-below -->
+                   <div class="main-content-below">
+                  </div>
+                   </div>
           </main>
           <!-- right side bar -->
            <div class="right-sidebar">
@@ -97,23 +179,96 @@
                         </form>
                     </div>
                     <div class="right-sidebar-second-buttom">
-                        b
                     </div>
                     <div class="right-sidebar-second-buttom-header">
                         <h2>Saving Plans</h2>
                         <span>View All</span>
                     </div>
                     <div class="right-sidebar-card">
-                        <div>
-                            <img src="" alt="">
-                        <div>
-                            <h3></h3>
-                            <span></span>
+                        <div class="right-sidebar-card-top">
+                            <div class="right-sidebar-card-top-img"> 
+                                <img src="/104490_apple_icon.png" alt="">
+                            </div>
+                        <div class="right-sidebar-card-top-text">
+                            <h3>New Iphone</h3>
+                            <span>Monthly Savings $1000</span>
+                        </div>
+                        </div>
+                        <div class="right-sidebar-card-bottom">
+                            <div class="right-sidebar-card-bottom-text">
+                            <h4>$7,000</h4>
+                            <span>target $12,000</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="bar"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="right-sidebar-card">
+                        <div class="right-sidebar-card-top">
+                            <div class="right-sidebar-card-top-img"> 
+                                <img src="/104490_apple_icon.png" alt="">
+                            </div>
+                        <div class="right-sidebar-card-top-text">
+                            <h3>New Iphone</h3>
+                            <span>Monthly Savings $1000</span>
+                        </div>
+                        </div>
+                        <div class="right-sidebar-card-bottom">
+                            <div class="right-sidebar-card-bottom-text">
+                            <h4>$7,000</h4>
+                            <span>target $12,000</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="bar"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="right-sidebar-card">
+                        <div class="right-sidebar-card-top">
+                            <div class="right-sidebar-card-top-img"> 
+                                <img src="/104490_apple_icon.png" alt="">
+                            </div>
+                        <div class="right-sidebar-card-top-text">
+                            <h3>New Iphone</h3>
+                            <span>Monthly Savings $1000</span>
+                        </div>
+                        </div>
+                        <div class="right-sidebar-card-bottom">
+                            <div class="right-sidebar-card-bottom-text">
+                            <h4>$7,000</h4>
+                            <span>target $12,000</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="bar"></div>
                         </div>
                         </div>
                     </div>
                 </div>
             </div>
              </div>
+             <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+             <script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday'],
+      datasets: [{
+        label: '# Inventory',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
 </body>
 </html>
